@@ -1,0 +1,33 @@
+#API
+google-genai
+python-dotenv
+groq
+
+# for data extract from PDF
+requests
+pymupdf
+
+
+pandas
+openpyxl
+feedparser
+
+
+
+# summary
+
+torch
+torchvision
+transformers
+
+#RAG
+langchain
+langchain-community
+langchain-huggingface
+sentence-transformers
+faiss-cpu 
+numpy
+
+neo4j
+pyvis
+openpyxl

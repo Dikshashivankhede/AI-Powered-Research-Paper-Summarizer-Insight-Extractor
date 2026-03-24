@@ -1,0 +1,86 @@
+# 📚 AI-Powered Research Paper Summarizer & Insight Extractor
+
+## 🚀 Overview
+This project presents an AI-powered research assistant capable of analyzing academic and industry research papers. It automates the process of summarization, enables intelligent semantic search, and visualizes relationships between key concepts using a knowledge graph.
+
+---
+
+## 🎯 Outcomes
+- Automated summarization of research papers
+- Extraction of key concepts, methodologies, and findings
+- Construction of a knowledge graph for relationship mapping
+- Semantic search across large research datasets
+- Interactive dashboards for exploration and structured insights
+
+---
+
+## 🏗️ Modules
+
+### 📄 1. Document Ingestion & Parsing Layer
+- Ingests research papers from PDFs and online repositories (e.g., arXiv, PubMed)
+- Parses documents into structured text
+- Extracts metadata such as title, authors, and citations
+
+---
+
+### 🧠 2. Summarization & Insight Extraction Engine
+- Uses Transformer-based models (BART, T5, LLaMA)
+- Generates abstractive summaries of research papers
+- Extracts key insights such as:
+  - Core findings
+  - Methodologies
+  - Important metrics
+
+---
+
+### 🔍 3. RAG + Semantic Search Layer
+- Implements Retrieval-Augmented Generation (RAG)
+- Uses LangChain with FAISS/Pinecone for vector search
+- Enables natural language querying across research papers
+- Retrieves contextually relevant information
+
+---
+
+### 🔗 4. Knowledge Graph Builder
+- Extracts entities such as authors, topics, and institutions
+- Identifies relationships between entities
+- Stores and queries graph data using Neo4j
+
+---
+
+### 📊 5. Visualization & Dashboard Hub
+- Interactive dashboards for:
+  - Semantic search results
+  - Knowledge graph exploration
+  - Research summaries
+- Supports exporting reports in PDF/Excel format
+
+---
+
+## 🔄 Project Flow
+
+The system follows a structured pipeline to process research papers and generate intelligent insights:
+
+Research Papers (PDFs)
+        ↓
+Document Ingestion & Parsing
+        ↓
+Summarization & Insight Extraction
+        ↓
+RAG + Semantic Search
+        ↓
+Knowledge Graph (Neo4j)
+        ↓
+Dashboard (Search, Graphs, Reports)
+
+## 🧩 Key Features
+- AI-based research summarization
+- Context-aware question answering (RAG)
+- Graph-based relationship visualization
+- Scalable semantic search system
+- User-friendly dashboard interface
+
+---
+
+## 🧠 Conclusion
+This project demonstrates how AI can transform research workflows by automating analysis, enabling intelligent search, and providing structured insights through knowledge graphs.
